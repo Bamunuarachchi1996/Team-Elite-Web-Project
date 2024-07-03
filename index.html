@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 3 profile</title>
+    <style>
+
+        body,
+        h1,
+        p,
+        a {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            background-color: #f7f8fc;
+        }
+
+        header, footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.5em;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            margin: auto;
+        }
+
+        .person {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            transition: background-color 0.3s;
+        }
+
+        .person:hover {
+            background-color: #f1f1f1;
+        }
+
+        .person img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            border: 2px solid #ddd;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .person:hover img {
+            transform: scale(1.1);
+        }
+
+        .person span {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .person a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PROFILE</h1>
+    </header>
+    <div class="container">
+        <div class="person">
+            <a href="thisari.html">
+                <h1>1.</h1>
+                <img src="Images/M24W0516.JPG" alt="Person 1">
+                <span>Thisari Bamunuarachchi</span>
+            </a>
+        </div>
+        <div class="person">
+            <a href="erandi.html">
+                <h1>2.</h1>
+                <img src="Images/Erandi.jpg"
+                    alt="Person 2">
+                <span>Erandi Wijesinghe</span>
+            </a>
+        </div>
+        <div class="person">
+            <a href="https://vitharana1997.github.io/thejani12/">
+                <h1>3.</h1>
+                <img src="Images/thejani.jpg"
+                    alt="Person 3">
+                <span>Thejani Vitharana</span>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 People Directory. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
